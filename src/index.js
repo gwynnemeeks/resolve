@@ -1,12 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.scss';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react"
+import ReactDOM from "react-dom"
+import { Resolve } from "./components/Resolve"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Resolve />
   </React.StrictMode>,
   document.getElementById('root')
 );
