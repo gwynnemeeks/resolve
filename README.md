@@ -28,7 +28,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### My Preferred Initial File Setup: [gem-setup](https://github.com/gwynnemeeks/resolve/tree/gem-setup)
+# LET'S DO THIS
+
+## My Preferred Initial File Setup: [gem-setup](https://github.com/gwynnemeeks/resolve/tree/gem-setup)
+
 * cd /src 
 * rm App*
 * mkdir components
@@ -37,3 +40,40 @@ You will also see any lint errors in the console.
 * mkdir intention
 * cd intention
 * touch Intention.js Intention.scss
+
+## Resolve Component:
+* rendering something to the DOM
+* the single page of a single page app
+
+## Resolve API:
+* JSON Server
+
+## Viewing Intentions:
+* providers
+* useState
+* fetch
+
+## Navigation & Routing:
+* React Router Dom
+
+## Adding Intentions:
+* Forms
+* controlled components
+
+## Individual Intentions and the Journey you Took:
+* nested data
+* routing
+* detail page -- journeys
+
+## Deleting Intentions and Journeys
+* delete
+
+## Editing Intentions and Journeys
+* edit
+
+## Searching Intentions
+* search
+* state
+* shared state
+
+## Deploying
