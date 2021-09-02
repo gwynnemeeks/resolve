@@ -41,7 +41,7 @@ You will also see any lint errors in the console.
 * cd intention
 * touch Intention.js Intention.scss
 
-## Resolve Component:
+## Resolve Component: [gem-resolveComponent](https://github.com/gwynnemeeks/resolve/tree/gem-resolveComponent)
 * rendering something to the DOM
 * the single page of a single page app
 
