@@ -45,7 +45,7 @@ You will also see any lint errors in the console.
 * rendering something to the DOM
 * the single page of a single page app
 
-## Resolve API:
+## Resolve API: [gem-api-setup](https://github.com/gwynnemeeks/resolve-api/tree/gem-api-setup)
 * JSON Server
 
 ## Viewing Intentions:
