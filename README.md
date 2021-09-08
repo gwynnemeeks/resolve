@@ -46,9 +46,10 @@ You will also see any lint errors in the console.
 * the single page of a single page app
 
 ## Resolve API: [gem-api-setup](https://github.com/gwynnemeeks/resolve-api/tree/gem-api-setup)
-* JSON Server
+* [JSON Server](https://www.npmjs.com/package/json-server)
+* `npm i json-server`
 
-## Viewing Intentions:
+## Viewing Intentions: [gem-viewIntention]
 * providers
 * useState
 * fetch
