@@ -3,7 +3,12 @@ import React, { useState, createContext } from "react"
 // The context is imported and used by individual components that need data
 export const IntentionContext = createContext()
 
-// This component establishes what data can be used.
+// This component, IntentionProvider, establishes what data can be used.
+
+// and the useState() hook defines a variable that holds the state of the component, 
+// and a function that updates it: so intentions is the variable that holds the data
+// setIntentions is the function that is used to modify that state
+
 export const IntentionProvider = (props) => {
     const [intentions, setIntentions] = useState([])
 
@@ -28,7 +33,8 @@ export const IntentionProvider = (props) => {
         You return a context provider which has the
         `intentions` state, `getIntentions` function,
         and the `addIntention` function as keys. This
-        allows any child elements to access them.
+        allows, or exposes the context provider to
+        any child elements and allows them to access it.
     */
     return (
         <IntentionContext.Provider value={{
