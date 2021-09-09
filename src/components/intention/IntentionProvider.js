@@ -8,7 +8,7 @@ export const IntentionProvider = (props) => {
     const [intentions, setIntentions] = useState([])
 
     const getIntentions = () => {
-        return fetch("http://localhost:8088/intentions?_expand=journey")
+        return fetch("http://localhost:8088/intentions?_expand=reflection")
             .then(res => res.json())
             .then(setIntentions)
     }
