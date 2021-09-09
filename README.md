@@ -13,8 +13,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * `npx create-react-app resolve`
 
 # Dependencies
-`npm install`
-`npm install node-sass`
+* `npm install`
+* `npm install node-sass`
 
 ## Available Scripts
 
