@@ -1,10 +1,11 @@
 import React from "react"
-import { Intention } from "./intention/Intention"
+import { IntentionList } from "./intention/IntentionList"
+import { IntentionProvider } from "./intention/IntentionProvider"
 import "./Resolve.scss"
 
 // Resolve is the Parent Component
 // Intention is the Child Comoponent
-// Both will be rendered to the DOM
+// Intention Provider exposes the data and functions the List needs to render to the DOM
 
 export const Resolve = () => (
     <>
@@ -13,9 +14,9 @@ export const Resolve = () => (
 
         <h2>Set Your Intentions</h2>
         <article className="intentions">
-            <Intention />
-            <Intention />
-            <Intention />
+            <IntentionProvider>
+                <IntentionList />
+            </IntentionProvider>
         </article>
 
     </>

@@ -13,8 +13,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * `npx create-react-app resolve`
 
 # Dependencies
-`npm install`
-`npm install node-sass`
+* `npm install`
+* `npm install node-sass`
 
 ## Available Scripts
 
@@ -39,16 +39,17 @@ You will also see any lint errors in the console.
 * touch Resolve.js Resolve.scss
 * mkdir intention
 * cd intention
-* touch Intention.js Intention.scss
+* touch IntentionList.js Intention.scss
 
 ## Resolve Component: [gem-resolveComponent](https://github.com/gwynnemeeks/resolve/tree/gem-resolveComponent)
 * rendering something to the DOM
 * the single page of a single page app
 
 ## Resolve API: [gem-api-setup](https://github.com/gwynnemeeks/resolve-api/tree/gem-api-setup)
-* JSON Server
+* [JSON Server](https://www.npmjs.com/package/json-server)
+* `npm i json-server`
 
-## Viewing Intentions:
+## Viewing Intentions: [gem-viewIntention]
 * providers
 * useState
 * fetch
