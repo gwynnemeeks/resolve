@@ -23,9 +23,6 @@ export const IntentionList = () => {
                             <div className="intention__word">
                                 <h3>Anchor: {intention.anchor} </h3>
                             </div>
-                            <div className="intention__date">
-                                <h5>Date: {intention.date} </h5>
-                            </div>
                         </div>
                     )
                 })
