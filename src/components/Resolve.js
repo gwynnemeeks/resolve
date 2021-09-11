@@ -1,5 +1,5 @@
 import React from "react"
-import { Intention } from "./intention/Intention"
+import { IntentionList } from "./intention/IntentionList"
 import "./Resolve.scss"
 
 // Resolve is the Parent Component
@@ -13,9 +13,7 @@ export const Resolve = () => (
 
         <h2>Set Your Intentions</h2>
         <article className="intentions">
-            <Intention />
-            <Intention />
-            <Intention />
+            <IntentionList />
         </article>
 
     </>

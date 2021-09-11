@@ -39,7 +39,7 @@ You will also see any lint errors in the console.
 * touch Resolve.js Resolve.scss
 * mkdir intention
 * cd intention
-* touch Intention.js Intention.scss
+* touch IntentionList.js Intention.scss
 
 ## Resolve Component: [gem-resolveComponent](https://github.com/gwynnemeeks/resolve/tree/gem-resolveComponent)
 * rendering something to the DOM
