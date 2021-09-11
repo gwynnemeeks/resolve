@@ -4,6 +4,7 @@ import "./Intention.scss"
 
 export const IntentionList = () => {
     // This state changes when `getIntentions()` is invoked below
+    // useContext hook allows you to use data structures and functions that the parent provider exposes 
     const { intentions, getIntentions } = useContext(IntentionContext)
 
     // useEffect - reach out to the world for something
